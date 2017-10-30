@@ -16,10 +16,10 @@ class DataService{
         Category(title: "HATS", imageName: "hats.png"),
         Category(title: "DIGITAL", imageName: "digital.png")
     ]
+    
     func getCategories() -> [Category]{
         return categories
     }
-    
     
     private let hats = [
         Product(title: "Devslopes Logo Graphic Beanie" , price: "£18", imageName: "hat01.png"),
